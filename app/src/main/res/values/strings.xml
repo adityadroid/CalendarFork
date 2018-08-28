@@ -1,0 +1,549 @@
+<resources>
+    <string name="app_name">Trivz</string>
+    <string name="facebook_app_id">158853114739509</string>
+    <string name="no_thank_you">No thank you</string>
+    <string name="car_owner">Car Owner</string>
+    <string name="customer">Customer</string>
+    <string name="car_buyer">Car Buyer</string>
+    <string name="car_dealer">Car Dealer</string>
+    <string name="please_wait_loading_message">Please wait &#8230;</string>
+    <string name="error_title_message">Error Occurred</string>
+    <string name="enable_internet_message">Enable Internet</string>
+    <string name="enable_gps_message">Enable GPS</string>
+    <string name="please_enable_internet_message">Please enable Internet</string>
+    <string name="internet_not_connected">Internet not Connected!</string>
+    <string name="please_enable_gps_message">Please enable GPS</string>
+    <string name="enable_message">Enable</string>
+    <string name="ok">OK</string>
+    <string name="done">Done</string>
+    <string name="cancel_message">Cancel</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="profile_incomplete">Profile Incomplete</string>
+    <string name="profile_complete">Profile Complete</string>
+
+    <!--Title starts-->
+    <string name="profile_car_dealer">Profile - Car Dealer</string>
+    <string name="profile_car_owner">Profile - Car Owner</string>
+    <string name="profile_car_buyer">Profile - Car Buyer</string>
+    <string name="block_calendars">Block Calendar</string>
+    <string name="calendar">Calendar</string>
+    <string name="title_activity_contactus">Contact Us</string>
+    <string name="rate_your_drive">Rate Your Drive</string>
+    <string name="title_activity_support">Support</string>
+    <string name="reset_your_password">Reset your password</string>
+    <string name="how_it_works">How It Works</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="summary">Summary</string>
+    <string name="my_cash">My Cash</string>
+    <string name="gift_voucher">Gifts Voucher</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="completed">Completed</string>
+    <string name="rejected">Rejected</string>
+    <string name="missed">Missed</string>
+    <string name="book_your_drive">Book a Test Drive</string>
+    <string name="title_activity_safety">Emergency Contacts</string>
+    <string name="profile_and_settings">Profile &amp; Settings</string>
+    <string name="title_activity_refer_earn">Refer &amp; Earn</string>
+    <string name="title_activity_register">Create Your Trivz Account</string>
+    <string name="tracked_location">Tracked Location</string>
+    <string name="terms_amp_conditions">Terms &amp; Conditions</string>
+    <string name="all">All</string>
+    <string name="redeemed">Redeemed</string>
+    <string name="earned_title">Earned</string>
+    <string name="title_activity_forgotpw">Forgot Password?</string>
+    <string name="add">Add</string>
+    <string name="choose_another_car">Choose another car</string>
+    <string name="cng">CNG</string>
+    <string name="electric">Electric</string>
+    <string name="lpg">LPG</string>
+
+    <!--Title ends-->
+
+
+    <string name="null_string">null</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="zero_zero">00&#58;%1$s</string>
+    <string name="zero_zero_zero">00&#58;0%1$s</string>
+
+    <string name="please_enter_correct_data">Please enter correct data</string>
+    <string name="enter_license_number_error">Enter License Number</string>
+    <string name="invalid_license_number_error">Invalid License Number</string>
+    <string name="enter_vehicle_reg_no_error">Enter Vehicle Reg No&#46;</string>
+    <string name="invalid_vehicle_reg_no_error">Invalid Vehicle Reg No&#46;</string>
+    <string name="invalid_reason_error">Invalid Reason</string>
+    <string name="enter_car_name_error">Enter Car Name</string>
+    <string name="enter_car_name">Enter Car Name</string>
+    <string name="search_location">Search Location</string>
+    <string name="search_car">Search Car</string>
+    <string name="schedule_test_drive">Schedule Test Drive</string>
+    <string name="enter_fuel_type_error">Enter fuel type</string>
+    <string name="enter_variant_error">Enter variant</string>
+    <string name="invalid_account_number_error">Invalid Account Number</string>
+    <string name="enter_account_number_error">Enter Account Number</string>
+    <string name="invalid_IFSC_code_error">Invalid IFSC Code</string>
+    <string name="enter_IFSC_code_error">Enter IFSC code</string>
+    <string name="invalid_account_holder_name_error">Invalid Account Holder Name</string>
+    <string name="enter_account_holder_name_error">Enter Account Holder Name</string>
+    <string name="invalid_paytm_number_error">Invalid Paytm number</string>
+
+    <string name="brand_name_hint">Enter your brand name *</string>
+    <string name="vehicle_details_hint">Vehicle Details</string>
+    <string name="fuel_hint">Fuel</string>
+    <string name="variant_hint">Variant</string>
+    <string name="registration_year_hint">Registration year</string>
+
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="paytm">Paytm</string>
+    <string-array name="paymentModeArray">
+        <item>Bank Transfer</item>
+        <item>Paytm</item>
+    </string-array>
+
+    <string name="block_multiple_dates">Block Multiple Dates</string>
+    <string name="block_consecutive_dates">Block Consecutive Dates</string>
+    <string name="block_single_date">Block Single Date</string>
+
+    <string-array name="blockTypeString">
+        <item>Block Multiple Dates</item>
+        <item>Block Consecutive Dates</item>
+        <item>Block Single Date</item>
+    </string-array>
+
+    <string-array name="monthName">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="select_time_message">Select Time Between 08 &#58; 00 am to 09 &#58; 00 pm</string>
+    <string name="successfully_blocked_date_message">Successfully Blocked Date</string>
+    <string name="has_pending_test_drive_message"> has an Pending Test Drive on </string>
+    <string name="date_is_blocked_message">This date is Blocked</string>
+    <string name="approved_request_message">You have a Approved Request with %1$s on %2$s</string>
+    <string name="pending_request_message">You have a Pending Request on %1$s</string>
+    <string name="on"> on </string>
+    <string name="unblock">Unblock</string>
+    <string name="please_enter_some_dataa">Please enter some data</string>
+    <string name="empty_message">Empty Message</string>
+    <string name="fill_data">Fill Data</string>
+    <string name="rate_your_overall_exp">Rate your overall experience with %1$s\'s %2$s test drive</string>
+    <string name="s">s </string>
+    <string name="test_drive"> test drive</string>
+    <string name="i_would_like_to_buy_new">I would like to buy new %1$s</string>
+    <string name="immediately">Immediately</string>
+    <string name="six_months">6 months</string>
+    <string name="not_sure">Not Sure</string>
+    <string name="please_rate_ur_exp">Please rate your experience to help us serve you better</string>
+    <string name="thank_u_for_rating">Thank you for rating the testdrive</string>
+    <string name="please_rate_owner">Please rate owner</string>
+    <string name="please_rate_customer">Please rate customer</string>
+    <string name="car_added_successfully_message">Car is successfully added</string>
+    <string name="car_already_message">Car Already Exists</string>
+    <string name="something_went_wrong_message">Something Went Wrong</string>
+    <string name="mandatory_fields_incomplete_message">Mandatory Fields Incomplete</string>
+    <string name="car_add_message">Congratulations! You have earned 1 Free Car Spa&#44; 1yr Road Side Assistance&#44; 1 Holiday voucher &#45; Redeem Now</string>
+    <string name="name">Name</string>
+    <string name="meeting_loc_message_for_dealer">Please suggest meeting location in 50km range</string>
+    <string name="meeting_loc_message_for_owner">Please suggest meeting location in 5km range</string>
+    <string name="suggest_meeting_loc_message">Please suggest meeting location</string>
+    <string name="invalid_email_password_message">Invalid email &#47; password</string>
+    <string name="invalid_email_mobile_message">Invalid email &#47; mobile</string>
+    <string name="invalid_otp_message">Invalid OTP</string>
+    <string name="password_did_not_match_message">Passwords did not match</string>
+    <string name="update_successfully_message">Updated Successfully</string>
+    <string name="enter_valid_email_mobile_message">Enter Valid Email or Mobile Number</string>
+    <string name="invalid_mobile_message">Invalid Mobile Number</string>
+    <string name="empty_password">Empty Password</string>
+    <string name="password_too_short">Password Too Short</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="please_try_again">Please Try Again</string>
+    <string name="press_once_again_to_exit">Press once again to exit!</string>
+    <string name="please_enter_correct_email_password">Please enter correct email &#47; password or use \'Forgot password\' </string>
+    <string name="press_reset_your_data_connection">Please reset your data connection </string>
+    <string name="authentication_failure_error">Authentication Failure Error has occurred</string>
+    <string name="server_error">Server Error has occurred</string>
+    <string name="network_error">Network Error out has occurred</string>
+    <string name="parse_error">Parse Error has occurred</string>
+    <string name="otp_resend_successfully">OTP resend successfully</string>
+    <string name="wait_for_otp">Wait for OTP to be automatically entered&#33;&#33;&#33;</string>
+    <string name="location_permission_not_granted">Location permission not granted&#44; showing default location</string>
+    <string name="verify">Verify</string>
+    <string name="verifying">Verifying &#8230;</string>
+    <string name="ur_location">Your location</string>
+    <string name="unable_to_detect_location">Unable to detect location</string>
+    <string name="please_select_location_city">Please Select Test Drive Location and Car</string>
+    <string name="select_model">Select Model</string>
+    <string name="invalid_address">Invalid Address</string>
+    <string name="select_from_time">Select From Time</string>
+    <string name="select_till_time">Select Till Time</string>
+    <string name="address_is_empty">Address is empty</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="select_variants">Select variants</string>
+    <string name="please_enter_license_no_to_proceed">Please enter License Number to proceed</string>
+    <string name="time_slot_message">The time slot for Test Drive cannot exceed 2 hours</string>
+    <string name="testdrive_successfully_booked">Test Drive Successfully Booked</string>
+    <string name="car_name_empty">Car Name is Empty</string>
+    <string name="car_found_count">%1$d car(s) found</string>
+    <string name="no_cars_found">No Cars found</string>
+    <string name="request_for_test_drive_from_dealer_done">Request for test drive from dealer is done</string>
+    <string name="redeem_via_bank_a_c">Redeem via bank a/c</string>
+    <string name="redeem_via_paytm">Redeem via Paytm</string>
+    <string name="pending">Pending</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="blocked">Blocked</string>
+    <string name="updates">Updates</string>
+    <string name="offers">Offers</string>
+    <string name="password_length_error">Password Length must be Minimum 8 Characters</string>
+    <string name="old_password_did_not_match">Old password did not match</string>
+    <string name="password_did_not_match">Password did not Match</string>
+    <string name="password_changed_successfully">Password Changed Successfully</string>
+    <string name="enter_feedback">Enter feedback</string>
+    <string name="user_rating_message">\u20B9 200 is one step away - please rate the user</string>
+    <string name="enter_phone_number">First Enter Phone Numbers</string>
+    <string name="end_test_drive">End Test Drive ?</string>
+    <string name="cancel_test_drive">Cancel Test Drive</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="list_your_vehicle_earn">List your Vehicles &amp; Earn &gt;</string>
+    <string name="please_enable_gps_and_internet">Please enable GPS and Internet</string>
+    <string name="lic_no">Lic no. %1$s  &gt;</string>
+    <string name="car_name">%1$s  &gt;</string>
+    <string name="update_lic_no">Update License Number &gt;</string>
+    <string name="right_arrow"> &gt;</string>
+    <string name="confirm_logout">Confirm Logout</string>
+    <string name="logout_message">Are you sure you want to logout ?</string>
+    <string name="cannot_get_location">Couldn\'t get the location. Make sure location is enabled on the device</string>
+    <string name="personal_details_saved_message">Personal Details Saved. Please Complete Profile by Entering Your Car Details or Licence Number</string>
+    <string name="accept_t_and_c_message">Please Accept Terms &amp; Conditions</string>
+    <string name="invalid_name">Invalid Name</string>
+    <string name="please_update_profile">Please Update Profile</string>
+    <string name="referral_code_copied">Referral Code Copied to Clipboard</string>
+    <string name="please_grant_contact_permission">Until you grant the permission, we canot display the names</string>
+    <string name="please_select_contact_to_earn_referral_code">Please select contact to earn Referral amount</string>
+    <string name="invitation_message_sent_successfully">Invitation message sent successfully</string>
+    <string name="download_trivz">Download Trivz</string>
+    <string name="share_using">Share using</string>
+    <string name="details_will_be_sent_to_registered_email_id">Details will be sent to your registered email id %1$s</string>
+    <string name="referral_code_to_sent_message">Use this referral code: %1$s \n Android users use this link: https://play.google.com/store/apps/details?id=in.mynewcar.testdrives \n\n iPhone users use this link: https://itunes.apple.com/in/app/trivz/id1300039535?mt=8</string>
+    <string name="share_via_message">%1$s just invited you to Trivz. \n Use this referral code: %2$s \n Android users use this link: https://play.google.com/store/apps/details?id=in.mynewcar.testdrives \n\n iPhone users use this link: https://itunes.apple.com/in/app/trivz/id1300039535?mt=8</string>
+    <string name="first_name_too_short">First name is too short</string>
+    <string name="last_name_too_short">Last name is too short</string>
+    <string name="call_police">Call Police</string>
+    <string name="call_ambulance">Call Ambulance</string>
+    <string name="enter_atleast_one_contact">Enter atleast one contact</string>
+    <string name="please_select_contact">Please Select Contact</string>
+    <string name="try_adding_another_contact">You have already added this contact. Try adding another</string>
+    <string name="test_drive_finished">Testdrive finished</string>
+    <string name="are_you_sure_to_cancel_test_drive">Are you sure to cancel the test drive ?</string>
+    <string name="confirm_test_drive">Confirm Test Drive ?</string>
+    <string name="please_select_atleast_one_contact">It seems you have not set any emergency contacts. In case of Emergency add atleast one emergency contact</string>
+    <string name="owner_pending_status_message">You have received a test drive request. Give a test drive and earn instant rewards.</string>
+    <string name="owner_approved_status_message">Suggest a meeting location for the test drive.</string>
+    <string name="approved_status_after_meeting_point_entered_message">Please arrive meeting point on time to avoid inconvenience.</string>
+    <string name="owner_completed_status_message">You have successfully given a test drive. Rate the customer and give test drive feedback to earn Rewards.</string>
+    <string name="owner_cancelled_status_message"> It appears the test drive request you had received has been cancelled by the customer. Please keep a lookout for new requests. </string>
+    <string name="owner_missed_status_message">Aww! you have missed a chance to give Test drive and earn rewards.</string>
+    <string name="customer_pending_status_message">Your test drive request is sent to car owners. We expect to receive approval shortly.</string>
+    <string name="customer_approved_status_message">Your test drive has been accepted by an owner. You will receive a OTP 2 hours prior to the scheduled time. </string>
+    <string name="customer_completed_status_message">You have successfully completed a test drive. Rate the owner and give test drive feedback.</string>
+    <string name="customer_cancelled_status_message">It appears the test drive you had requested has been cancelled by the owner. Please search again.</string>
+    <string name="customer_missed_status_message">Aww! you have missed a chance to take Test drive.</string>
+    <string name="default_status_message">This is the status of the Test Drive.</string>
+    <string name="name_of_person_with_whom_test_drive_is_confirmed">Name of the person with whom test drive is confirmed</string>
+    <string name="test_drive_rejected">Test Drive Rejected</string>
+    <string name="test_drive_cancelled">Test Drive Cancelled</string>
+    <string name="test_drive_confirmation_sent">Test Drive Confirmation Sent</string>
+    <string name="otp_verified">OTP Verified &#33;</string>
+    <string name="wrong_otp_entered">Wrong OTP entered</string>&#44;
+    <string name="comma_with_fuel">&#44; %1$s</string>
+    <string name="testdrive_id">MNCTRV%1$s</string>
+    <string name="you_have_one_new_request">You Have One New Test Drive Request</string>
+    <string name="you_have_requested">You Have Requested a Test Drive</string>
+    <string name="reject">Reject</string>
+    <string name="select_meeting_location">Select Meeting Point</string>
+    <string name="awaiting_meeting_location">Awaiting Test Drive Location</string>
+    <string name="share_otp_with_owner">Share OTP with Owner-%1$s</string>
+    <string name="otp">OTP - %1$s</string>
+    <string name="earned">Earned \u20B9 %1$s</string>
+    <string name="rated">Rated ( %1$s )</string>
+    <string name="delete_selected_item">Delete Selected Item\?</string>
+    <string name="enter_car_details">Enter Car Details</string>
+    <string name="this_is_reward_that_you_have_earned">This is the reward that you have earned.</string>
+    <string name="given_amount">\u002D \u20B9 %1$s</string>
+    <string name="reward_amount">\u002B \u20B9 %1$s</string>
+    <string name="rupees_symbol">\u20B9 %1$s</string>
+    <string name="your_voucher_will_be_redeem_shortly">Your voucher will be redeemed shortly</string>
+    <string name="your_rewards_will_be_redeem_shortly">Your rewards will be redeemed shortly</string>
+    <string name="please_provide_paytm_bank_details">Please provide PayTM \u2215 Bank details</string>
+    <string name="amount_will_be_credited_shortly">Amount will be Credited Shortly</string>
+    <string name="amount_will_be_transferred_within_48_hrs">Amount will be transferred within 48 hours</string>
+    <string name="trivz_wallet_is_empty">Your trivz wallet is empty</string>
+    <string name="owner_meeting_location_suggest_message">Please Enter the Meeting Point of Your Upcoming Test Drive of %1$s on %2$s with %3$s</string>
+    <string name="owner_meeting_location_suggestion_message">Please enter the meeting point of your upcoming Test Drive of %1$s on %2$s</string>
+    <string name="payout_rewards_earned">Payout \u002D For Rewards Earned</string>
+    <string name="payment_option">Payment Option</string>
+    <string name="account_holder_name_hint">Account Holder\'s Name</string>
+    <string name="account_number_hint">Account Number</string>
+    <string name="ifsc_code_hint">IFSC Code</string>
+    <string name="paytm_number_hint">Paytm Number </string>
+    <string name="block_time">Block Time</string>
+    <string name="license_no_hint">License Number \u002a</string>
+    <string name="dob_hint">Date Of Birth</string>
+    <string name="powered_by_mynewcar">Powered by MYNEWCAR\.IN</string>
+    <string name="dreamz_mynewcar">DREAMZ MYNEWCAR INDIA Pvt Ltd\.</string>
+    <string name="mynewcar_address">39\u002c 2nd Floor\u002c Om Heera Panna Mall\u002c Behind Oshiwara Police Station\u002c</string>
+    <string name="mynewcar_address_2">Andheri \u0028W\u0029\u002c Mumbai 400053</string>
+    <string name="mynewcar_address_3">Email \u002d contacttrivz@mynewcar\u002ein</string>
+    <string name="mynewcar_address_4">Phone \u002d %1$s</string>
+    <string name="suggestion_feedback">Suggestion \u2215 Feedback</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="from">From : </string>
+    <string name="till">Till : </string>
+    <string name="block">Block</string>
+    <string name="get_the_best_prevailing_offer_from_mynewcar_in">Get the best prevailing offer from MYNEWCAR.IN</string>
+    <string name="are_you_interested_in_pre_owned_car">Are you interested in pre\u002Downed car \u003F</string>
+    <string name="within_six_months">Within 6 months</string>
+    <string name="within_three_months">Within 3 months</string>
+    <string name="just_researching">Just Researching</string>
+    <string name="need_car_finance_assistance">Need car finance assistance \u003F</string>
+    <string name="you_may_also_consider">You may also consider</string>
+    <string name="forgot_pass_hint">10\u002Ddigit mobile number or email ID</string>
+    <string name="text_continue">Continue</string>
+    <string name="contact_error_message">Same Contact cannot be selected again</string>
+    <string name="please_enter_otp_received_to_verify_n_login">Please enter OTP received to verify and login</string>
+    <string name="set_password_hint">Set Password (Min 8 Characters)</string>
+    <string name="confirm_password_hint">Confirm Entered Password</string>
+    <string name="update">Update</string>
+    <string name="add_car">Add Car</string>
+    <string name="planning_to_sell_ur_car">Planning to sell your car\u003F</string>
+    <string name="when_do_u_think_customer_will_buy_his_car">When do you think this customer will buy his next car \u003F</string>
+    <string name="are_you_interested_in_refinance_against_your_car">Are you interested in refinance against your car \u003F</string>
+    <string name="avail_free_car_wash">Avail free car wash \u2215 car service</string>
+    <string name="sos">SOS</string>
+    <string name="mobile_no_hint">Mobile Number \u002A</string>
+    <string name="name_hint">Name \u002A</string>
+    <string name="address_hint">Address *</string>
+    <string name="add_referral_code">Add Referral Code </string>
+    <string name="referral_code">Referral Code</string>
+    <string name="i_agree_to">I agree to</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="stop">Stop</string>
+    <string name="profiles">Profiles</string>
+    <string name="vehicle_registration_number_hint">Vehicle Registration Number *</string>
+    <string name="insurance_provider_hint">Insurance Provider</string>
+    <string name="insurance_valid_until_hint">Insurance Valid Until</string>
+    <string name="save">Save</string>
+    <string name="show">Show</string>
+    <string name="login_to_your_trivz_account">Login to your Trivz account</string>
+    <string name="cancel_drive_request">Cancel Drive Request</string>
+    <string name="enter_reason">Enter Reason</string>
+    <string name="reject_drive">Reject drive</string>
+    <string name="others">Others</string>
+    <string name="testdrive_request_successful">Test drive Request Successful</string>
+    <string name="sorry_no_cars_found">Sorry\u002C no cars found</string>
+    <string name="request_test_drive_from_dealer">Request Test Drive from Dealer</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">Enter New Password (min 8 character)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password_button">Reset Password</string>
+    <string name="take_test_drive">Take Test Drive</string>
+    <string name="title_activity_drive_status">Drive Status</string>
+    <string name="wallet">Wallet</string>
+    <string name="help">Help</string>
+    <string name="upcoming_test_drive">Upcoming Test Drive</string>
+    <string name="view_all">View All</string>
+    <string name="test_drive_suggestion">Test Drive Suggestion</string>
+    <string name="super_offers">Super Offers</string>
+    <string name="share_your_referral_code">Share Your Referral Code</string>
+    <string name="invite_contacts">Invite Contacts</string>
+    <string name="or">or</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="gmail">Gmail</string>
+    <string name="more">More</string>
+    <string name="your_referral_code">Your Referral Code</string>
+    <string name="tap_to_copy">Tap to Copy</string>
+    <string name="friends_n_family">Friends &amp; Family</string>
+    <string name="enter_ten_digit_mbile_no">Enter 10 digit mobile no</string>
+    <string name="police">Police 100</string>
+    <string name="ambulance">Ambulance 102</string>
+    <string name="select_status">Select Status:</string>
+    <string name="rejected_cancelled">Rejected \u2215 Cancelled</string>
+    <string name="approved">Approved</string>
+    <string name="suggested_dates">Suggested dates</string>
+    <string name="verified">Verified</string>
+    <string name="show_route">  Show Route</string>
+    <string name="you_have_new_request">You have a new request</string>
+    <string name="earned_rs_200">Earned \u20B9 200</string>
+    <string name="you_could_have_earned_rs_200">You could\'ve earned \u20B9 %1$s</string>
+    <string name="get_offer">Get Offer</string>
+    <string name="accept">Accept</string>
+    <string name="call">Call</string>
+    <string name="call_with_no">Call %1$s</string>
+    <string name="start">Start</string>
+    <string name="redeem">Redeem</string>
+    <string name="rate_customer">Rate Customer</string>
+    <string name="rate_owner">Rate Owner</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_records_found">No Record\u0028s\u0029 Found</string>
+    <string name="nothing_here_right_now">Nothing here right now\u0021</string>
+    <string name="we_will_let_you_know">We\'ll let you know when we have \n something for you here\u002E</string>
+    <string name="filter">Filter</string>
+    <string name="distance">Distance \u003A </string>
+    <string name="km_radius">\u0020km. radius</string>
+    <string name="fuel_type">Fuel Type\u003A </string>
+    <string name="transmission">Transmission\u003A </string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="manual">Manual</string>
+    <string name="automatic">Automatic</string>
+    <string name="mfg_year">Manufacturing year\u003A </string>
+    <string name="min_year">Min Year \u003A </string>
+    <string name="max_year">Max Year \u003A </string>
+    <string name="variants">Variants</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="transfer_to_bank_ac">Transfer to Bank a \u2215 c</string>
+    <string name="transfer_to_paytm">Transfer to Paytm</string>
+    <string name="available_voucher_worth">Available Voucher worth</string>
+    <string name="redeem_voucher">Redeem Voucher</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="redeem_your_rewards">Redeem your Rewards</string>
+    <string name="how_to_use_wallet">How To Use Wallet</string>
+    <string name="how_to_earn_rewards">How To Earn Rewards</string>
+    <string name="incorrect_otp">Incorrect OTP</string>
+    <string name="please_enter_correct_otp">Please enter correct OTP or request for a new OTP</string>
+    <string name="know_more">Know More</string>
+    <string name="add_contact_details">Add Contact Details</string>
+    <string name="sorry_unable_to_pick_contact">Sorry we are unable to pick a contact from your phone book. \n Please add contact details below</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="select_date">Select date</string>
+    <string name="select_time">Select 2hrs Time Slot</string>
+    <string name="app_not_installed">App not installed</string>
+    <string name="select_time_between_8_n_9">\u0028Between 08\u003A00am to 09\u003A00pm &amp; Duration for test drive: 2 hours.\u0029 </string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="are_you_sure_you_want_to_dial">Are you sure you want to dial: </string>
+    <string name="the_email_id_already_exists">The email ID \u2215 mobile number already exist</string>
+    <string name="already_have_account">\u0028Do you already have an account\u003F\u0029</string>
+    <string name="title_activity_login2">Login</string>
+    <string name="_91">+91\ </string>
+    <string name="hint_10_digit_mobile_number">10 digit mobile number</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="unprofessional_reasons">Unprofessional reason : %1$s</string>
+    <string name="buyer_too_far">Too far : %1$s</string>
+    <string name="enter_otp_received">Enter OTP received</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="login">Login</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="login_via_email">Login Via Email</string>
+    <string name="email_id_hint">Email ID * </string>
+    <string name="password_hint">Password (minimum 8 characters) *</string>
+    <string name="list_your_car">List Your Car</string>
+    <string name="take_a_drive">Take a Drive</string>
+    <string name="skip">Skip</string>
+    <string name="later">Later</string>
+    <string name="not_registered_register"><u>Not Registered? Register</u></string>
+    <string name="first_name_hint">First Name *</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="date_of_birth_hint">Date of Birth</string>
+    <string name="minimum_age_for_using_this_app_is_18years">(Minimum age for using this app is 18 years)</string>
+    <string name="reset_password_hint">Re-enter password</string>
+    <string name="got_a_referral_code">Got a referral code?</string>
+    <string name="enter_referral_code_optional">Enter referral code (Optional)</string>
+    <string name="by_registering_i_agree_to_trivz_s">By registering, I agree to Trivz\'s</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="title_activity_navigation">TRIVZ</string>
+    <string name="title_activity_owner_main">Dashboard</string>
+    <string name="title_activity_owner_change">Change Password</string>
+    <string name="title_activity_owner_contactus">Contact Us</string>
+    <string name="title_activity_faqs">faqs</string>
+    <string name="title_activity_history">History</string>
+    <string name="please_enable_gps_to_use_this_feature">Please enable GPS to use this feature</string>
+    <string name="title_activity_notification">Notifications</string>
+    <string name="title_activity_select_address">Select Address</string>
+    <string name="you_have_no_unused_rewards_for_this_account">No Records Found</string>
+    <string name="add_contact_s">Add Contact(s)</string>
+    <string name="lets_make_testdrive_safer">In case of an emergency</string>
+    <string name="safety_empty_layout_message">Alert your dear ones. Add them in your emergency contacts</string>
+    <string name="you_can_add_up_to_3_contacts_nremove_any_contact_to_add_another">You can add up to 3 contacts. \n Remove any contact to add another.</string>
+    <string name="default_media_location_folder">Trivz</string>
+    <string name="chat">Chat</string>
+    <string name="one_emergency_contact_added">One emergency contact added</string>
+    <string name="proceed_with_test_drive">Proceed with Test Drive</string>
+    <string name="add_another_emergency_contact">Add another contact</string>
+    <string name="chat_is_not_installed">%1$s is not using the chat functionality, an email will be sent, for quick revert please call using the app.</string>
+
+
+    <!--<string name="applozic_app_id">21b2e2b9252381f8b302f7a429864b987</string>-->
+    <string name="applozic_app_id">dreamzmynewcarindiafb491f751ba</string>
+    <string name="retry">Retry</string>
+    <string name="t_amp_c_apply">T &amp; C Apply &#42;</string>
+    <!--<string name="applozic_app_id">13df7f23b91de261b4aa6b25e4cbbf0ef</string>-->
+
+
+    <!--Old ones-->
+    <!--<string name="title_activity_chnagepw">CHANGE PASSWORD</string>-->
+
+    <!--&lt;!&ndash;<string-array name="spinner_rad">&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>5</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>10</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>15</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>20</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>25</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>30</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item>50</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;</string-array>&ndash;&gt;-->
+    <!-- -->
+    <!--<string name="next">NEXT</string>-->
+    <!--    -->
+
+    <!--<string name="reset_password"><u>FORGOT PASSWORD ?</u></string>-->
+    <!--<string name="title_activity_user_profile">PROFILE</string>-->
+    <!--<string name="title_activity_previous_rides">PreviousRides</string>-->
+    <!--<string name="title_activity_myrides">Test drives !</string>-->
+    <!--<string name="title_activity_about_us">ABOUT US</string>-->
+
+    <!--<string name="title_activity_owner_forgot">FORGOT PASSWORD </string>-->
+    <!--<string name="title_activity_owner_requests">RIDE REQUESTS</string>-->
+    <!--<string name="title_activity_owner_profile">OWNER PROFILE</string>-->
+    <!--<string name="title_activity_owner_about_us">ABOUT US</string>-->
+
+    <!--<string name="location_for_test_drive">Location for Test Drive</string>-->
+    <!--<string name="title_activity_login_via_otp">LOGIN VIA OTP</string>-->
+    <!--<string name="title_activity_mainn">mainn</string>-->
+
+    <!--&lt;!&ndash; TODO: Remove or change this placeholder text &ndash;&gt;-->
+    <!--<string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <!--<string name="title_activity_my_drives">My Drives</string>-->
+
+
+    <!--<string name="profile_registration_is_Incomplete">Profile Registration is incomplete</string>-->
+    <!--&lt;!&ndash;<string name="refer_and_earn"><![CDATA[Refer & Earn]]></string>&ndash;&gt;-->
+    <!--&lt;!&ndash;<string name="refer_and_earn"></string>&ndash;&gt;-->
+    <!--<string name="title_activity_add_car_owner">AddCarOwnerActivity</string>-->
+    <!--<string name="dummy_button">Dummy Button</string>-->
+    <!--<string name="dummy_content">DUMMY\nCONTENT</string>-->
+    <!--<string name="title_activity_search_car">trivz</string>-->
+    <!--<string name="section_format">Hello World from section: %1$d</string>-->
+
+</resources>
