@@ -126,9 +126,8 @@ public class BlockCalendar extends AppCompatActivity {
             }
         });
         Calendar calendar = Calendar.getInstance();
-        calendar.add(Calendar.DAY_OF_YEAR, 2);
+        calendar.add(Calendar.DAY_OF_YEAR, -20);
         Date tomorrow = calendar.getTime();
-
         calendar_view.init(today, nextYear.getTime()).withConfirmedDate(tomorrow).inMode(CalendarPickerView.SelectionMode.MULTIPLE);
         block_type.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

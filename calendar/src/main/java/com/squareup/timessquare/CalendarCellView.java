@@ -4,6 +4,7 @@ package com.squareup.timessquare;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
@@ -147,6 +148,7 @@ public class CalendarCellView extends FrameLayout {
     if (isSelectable) {
       mergeDrawableStates(drawableState, STATE_SELECTABLE);
     }
+   // Log.d("Confirmed","Date"+isConfirmed);
 
     if (isCurrentMonth) {
       mergeDrawableStates(drawableState, STATE_CURRENT_MONTH);
